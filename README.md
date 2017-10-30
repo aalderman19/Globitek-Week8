@@ -56,7 +56,7 @@ Vulnerability #2: CSRF - I created a fake form that submits data through the pos
 
  - GIF:
  
- ![Alt text](/Week8RedSCSRF.gif)
+ ![Alt text](/Week8RedCSRF.gif)
  
  
 

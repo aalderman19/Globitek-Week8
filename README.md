@@ -52,11 +52,11 @@ Vulnerability #1: IDOR - The "Find a salesperson" will give you further informat
  
  ![Alt text](/Week8RedIDOR.gif)
 
-Vulnerability #2: CSRF - This vulnerability will have to be on this site as it is the only one remaining after finding the others.
+Vulnerability #2: CSRF - I created a fake form that submits data through the post request. If there was a real attack, they could fake a site link in the feedback section that would redirect them to the fake site.
 
  - GIF:
  
- ![Alt text](Did not find it, but it is there.)
+ ![Alt text](/Week8RedSCSRF.gif)
  
  
 

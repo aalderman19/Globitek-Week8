@@ -16,7 +16,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQLi - The user can insert a SQL statement into the id of the url in the find a salesperson display of user information.
 
 Vulnerability #2: __________________
 
@@ -24,14 +24,19 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: XSS - The user can submit feedback that when accessed from the admin side, will run code in a script tag. The other sites probably escape the strings that the users can submit feedback for.
-GIF: 
 
-Vulnerability #2: __________________
+ - GIF: 
+
+Vulnerability #2: Username Enumeration - If the username does not exists when someone attempts to login, the error message will appear not bolded. The developer used the wrong css class "failed". To make the message bold, the class name is "failure".
+
+ - GIF:
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR - The "Find a salesperson" will give you further information about a salesperson qwhen you click their name. If you change the id of the salesperson, it will allow you to see private information. In Blue and Green, the private numbers will redirect you to the previous page if you try to use a private id.
+
+ - GIF: 
 
 Vulnerability #2: __________________
 
